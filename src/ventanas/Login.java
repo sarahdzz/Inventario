@@ -22,7 +22,7 @@ public class Login extends javax.swing.JFrame {
         this.setResizable(false);// el usuario no modifique el tamaño d ela ventana
 
 //inicio agregar y escalar la inm del label 
-        ImageIcon fondo = new ImageIcon("src/img/azul-amr.jpg");
+        ImageIcon fondo = new ImageIcon("src/img/fondoa2.jpg");
         Icon icono_fondo = new ImageIcon(fondo.getImage().getScaledInstance(fondo_log.getWidth(),
                 fondo_log.getHeight(), Image.SCALE_DEFAULT));
 
