@@ -21,7 +21,7 @@ public class Administrador extends javax.swing.JFrame {
         initComponents();
         user = Login.user;//guardamos el valor de la interfaz login 
         session_usuario = 1;
-        this.setSize(1000, 630);
+        this.setSize(1041, 630);
         setResizable(false);//no se modifique el tam del from
         this.setTitle("Administrador - Sistema de Inventario - " + user);
         this.setLocationRelativeTo(null);
@@ -60,6 +60,7 @@ public class Administrador extends javax.swing.JFrame {
     }
 //tambien se debe modifica eliconimage deljframe desde diseño 
 //fin icono jframeFrame
+//fins
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -179,7 +180,7 @@ public class Administrador extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 630));
 
         lb_fondo.setBackground(new java.awt.Color(58, 134, 255));
-        getContentPane().add(lb_fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1230, 630));
+        getContentPane().add(lb_fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1040, 630));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -189,7 +190,8 @@ public class Administrador extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_AcercaActionPerformed
 
     private void btn_resgritro_user1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_resgritro_user1ActionPerformed
-
+        RegistroUsuarios registaraUser = new RegistroUsuarios();
+        registaraUser.setVisible(true);
     }//GEN-LAST:event_btn_resgritro_user1ActionPerformed
 
     private void btn_gestionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_gestionActionPerformed
